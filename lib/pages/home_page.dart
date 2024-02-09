@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:ngdemo5/services/color_service.dart';
 
 class HomePage extends StatefulWidget {
   static const String id = "home_page";
@@ -15,6 +16,8 @@ class _HomePageState extends State<HomePage> {
     return Scaffold(
       appBar: AppBar(
         backgroundColor: Colors.blue,
+        //backgroundColor: Color.fromRGBO(0, 127, 255, 1),
+        //backgroundColor: HexColor("#007FFF"),
         title: Text(
           "Instagram",
           style: TextStyle(
